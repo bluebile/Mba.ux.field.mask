@@ -1,0 +1,54 @@
+{
+    "name": "Mba.ux.Field",
+    "version": "0.0.24",
+    "homepage": "https://github.com/bluebile/Mba.ux.Field",
+    "authors": [
+        "Bluebile <info@bluebile.com>"
+    ],
+    "description": "Coleção de field's para Sencha Touch utilizando html5 e cordova.",
+    "main": [
+        "Select.js",
+        "Cpf.js",
+        "Number.js",
+        "MoedaField.js",
+        "Formatador.js",
+        "money.js",
+        "DataField.js",
+        "NumberTextField.js",
+        "NumberPasswordField.js",
+        "MaskPasswordField.js",
+        "MaskTextField.js",
+        "TelefoneField.js",
+        "TextAreaField.js",
+        "TextOnlyField.js",
+        "LowerTextField.js",
+        "CnpjField.js",
+        "CpfField.js",
+        "CepField.js"
+    ],
+    "keywords": [
+        "senchatouch",
+        "extjs",
+        "ux",
+        "field",
+        "select",
+        "cpf",
+        "number"
+    ],
+    "license": "MIT",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "demo",
+        "ux",
+        "**/*.*~",
+        "Gruntfile.js",
+        "bower.json",
+        "package.json",
+        "test",
+        "tests"
+    ],
+    "requires": ["Mba.ux.Field.*"],
+    "libs":["resources/js/money.js"]
+}
